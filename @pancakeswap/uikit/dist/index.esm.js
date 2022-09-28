@@ -2751,9 +2751,9 @@ var PancakeToggle = function (_a) {
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#c244ff",
-    primaryBright: "#c244ff",
-    primaryDark: "#c244ff",
+    primary: "#FFFFFF",
+    primaryBright: "#FFFFFF",
+    primaryDark: "#FFFFFF",
     secondary: "#9b51b4",
     success: "#31D0AA",
     warning: "#FFB237",
@@ -2774,9 +2774,9 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#c244ff", background: "#1f002d", backgroundDisabled: "#3c3742", backgroundAlt: "#1f002d", backgroundAlt2: "#1f002d", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#372F47", inputSecondary: "#262130", primaryDark: "#c244ff", tertiary: "#353547", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#B8ADD2", disabled: "#524B63", gradients: {
-        bubblegum: "linear-gradient(50deg, #00bdfd 0%, #cc1886 100%)",
-        inverseBubblegum: "linear-gradient(50deg, #00bdfd 0%, #cc1886 100%)",
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#FFFFFF", background: "#A9A9A9", backgroundDisabled: "#3c3742", backgroundAlt: "#A9A9A9", backgroundAlt2: "#1f002d", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#372F47", inputSecondary: "#262130", primaryDark: "#FFFFFF", tertiary: "#353547", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#B8ADD2", disabled: "#524B63", gradients: {
+        bubblegum: "linear-gradient(50deg, #FFFFFF 0%, #FFFFFF 100%)",
+        inverseBubblegum: "linear-gradient(50deg, #FFFFFF 0%, #FFFFFF 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
         violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",

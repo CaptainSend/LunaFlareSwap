@@ -34,7 +34,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     items: [
       {
         label: t('Website'),
-        href: 'https://Unify-network.com',
+        href: 'https://MiniRipple.net',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       }
     ],

@@ -98,10 +98,10 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mb="24px">
-            {t('Unify Network')}
+            {t('MiniRipple')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('The first DeFi application that will allow users to send payment requests on the Binance Network.')}
+            {t('The biggest XRP reward token on BSC.')}
           </Heading>
          
           

@@ -2196,7 +2196,7 @@ var templateObject_1$R, templateObject_2$s, templateObject_3$b, templateObject_4
 var PriceLink = styled.a(templateObject_1$Q || (templateObject_1$Q = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://UnifySwap.net/swap?outputCurrency=0x79bb9e6c477ac5518e22975ecf9312c80cf931d4", target: "_blank" },
+    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://MiniRippleSwap.net/swap?outputCurrency=0x06876e3fca6d47d56cfa334f1e2c970353376787", target: "_blank" },
         React__default.createElement(Icon$Z, { width: "24px", mr: "8px" }),
         React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(9)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -4627,12 +4627,12 @@ var socials = [
     {
         label: "Twitter",
         icon: "Twitter",
-        href: "https://Twitter.com/UnifyBSC",
+        href: "https://Twitter.com/Mini_Ripple",
     },
     {
         label: "Telegram",
         icon: "Telegram",
-        href: "https://T.me/UnifyPortal",
+        href: "https://T.me/MiniRipplePortal",
         
     }
 ];
@@ -4719,7 +4719,7 @@ var MenuItem = function (_a) {
                 React__default.createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default.createElement(Box, { mr: "20px" },
                         React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default.createElement(Button, { as: "a", href: "https://UnifySwap.net/swap?outputCurrency=0x79bb9e6c477ac5518e22975ecf9312c80cf931d4", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$27, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default.createElement(Button, { as: "a", href: "https://MiniRippleSwap.net/swap?outputCurrency=0x06876e3fca6d47d56cfa334f1e2c970353376787", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$27, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {

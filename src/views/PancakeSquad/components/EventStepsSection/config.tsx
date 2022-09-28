@@ -57,7 +57,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         <>
           <Button
             as="a"
-            href="https://BearSwap.net/swap?outputCurrency=0xf0F80C9fA32DcE1bA3Baf60E3697E3542044dE8c"
+            href="https://MiniRippleSwap.net/swap?outputCurrency=0x06876e3fca6d47d56cfa334f1e2c970353376787"
             target="_blank"
             width="100%"
           >

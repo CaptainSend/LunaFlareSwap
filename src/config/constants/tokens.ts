@@ -25,11 +25,11 @@ export const mainnetTokens = {
   bnb: new Token(MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'BNB', 'BNB', 'https://www.binance.com/'),
   cake: new Token(
     MAINNET,
-    '0x79bb9e6c477ac5518e22975ecf9312c80cf931d4',
+    '0x06876e3fca6d47d56cfa334f1e2c970353376787',
     18,
-    'UNIF',
-    'Unify Network',
-    'https://UnifySwap.net/',
+    'MINIXRP',
+    'MiniRipple',
+    'https://MiniRippleSwap.net/',
   ),
   shbar: new Token(
     MAINNET,

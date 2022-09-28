@@ -2,10 +2,10 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'UnifySwap',
+  title: 'MiniRippleSwap',
   description:
     '',
-  image: 'https://BearSwap.net/images/hero.png',
+  image: 'https://MiniRippleSwap.net/images/hero.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
@@ -33,106 +33,106 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('UnifySwap')}`,
+        title: `${t('Home')} | ${t('MiniRippleSwap')}`,
       }
     case '/swap':
       return {
-        title: `${t('Exchange')} | ${t('UnifySwap')}`,
+        title: `${t('Exchange')} | ${t('MiniRippleSwap')}`,
       }
     case '/add':
       return {
-        title: `${t('Add Liquidity')} | ${t('UnifySwap')}`,
+        title: `${t('Add Liquidity')} | ${t('MiniRippleSwap')}`,
       }
     case '/remove':
       return {
-        title: `${t('Remove Liquidity')} | ${t('UnifySwap')}`,
+        title: `${t('Remove Liquidity')} | ${t('MiniRippleSwap')}`,
       }
     case '/liquidity':
       return {
-        title: `${t('Liquidity')} | ${t('UnifySwap')}`,
+        title: `${t('Liquidity')} | ${t('MiniRippleSwap')}`,
       }
     case '/find':
       return {
-        title: `${t('Import Pool')} | ${t('UnifySwap')}`,
+        title: `${t('Import Pool')} | ${t('MiniRippleSwap')}`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('UnifySwap')}`,
+        title: `${t('Trading Battle')} | ${t('MiniRippleSwap')}`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('UnifySwap')}`,
+        title: `${t('Prediction')} | ${t('MiniRippleSwap')}`,
       }
     case '/prediction/leaderboard':
       return {
-        title: `${t('Leaderboard')} | ${t('UnifySwap')}`,
+        title: `${t('Leaderboard')} | ${t('MiniRippleSwap')}`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('UnifySwap')}`,
+        title: `${t('Farms')} | ${t('MiniRippleSwap')}`,
       }
     case '/farms/auction':
       return {
-        title: `${t('Farm Auctions')} | ${t('UnifySwap')}`,
+        title: `${t('Farm Auctions')} | ${t('MiniRippleSwap')}`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('UnifySwap')}`,
+        title: `${t('Pools')} | ${t('MiniRippleSwap')}`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('UnifySwap')}`,
+        title: `${t('Lottery')} | ${t('MiniRippleSwap')}`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('UnifySwap')}`,
+        title: `${t('Initial Farm Offering')} | ${t('MiniRippleSwap')}`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('UnifySwap')}`,
+        title: `${t('Leaderboard')} | ${t('MiniRippleSwap')}`,
       }
     case '/voting':
       return {
-        title: `${t('Voting')} | ${t('UnifySwap')}`,
+        title: `${t('Voting')} | ${t('MiniRippleSwap')}`,
       }
     case '/voting/proposal':
       return {
-        title: `${t('Proposals')} | ${t('UnifySwap')}`,
+        title: `${t('Proposals')} | ${t('MiniRippleSwap')}`,
       }
     case '/voting/proposal/create':
       return {
-        title: `${t('Make a Proposal')} | ${t('UnifySwap')}`,
+        title: `${t('Make a Proposal')} | ${t('MiniRippleSwap')}`,
       }
     case '/info':
       return {
-        title: `${t('Overview')} | ${t('UnifySwap Info & Analytics')}`,
-        description: 'View statistics for UnifySwap exchanges.',
+        title: `${t('Overview')} | ${t('MiniRippleSwap Info & Analytics')}`,
+        description: 'View statistics for MiniRippleSwap exchanges.',
       }
     case '/info/pools':
       return {
-        title: `${t('Pools')} | ${t('UnifySwap Info & Analytics')}`,
-        description: 'View statistics for UnifySwap exchanges.',
+        title: `${t('Pools')} | ${t('MiniRippleSwap Info & Analytics')}`,
+        description: 'View statistics for MiniRippleSwap exchanges.',
       }
     case '/info/tokens':
       return {
-        title: `${t('Tokens')} | ${t('UnifySwap Info & Analytics')}`,
-        description: 'View statistics for BearSwap exchanges.',
+        title: `${t('Tokens')} | ${t('MiniRippleSwap Info & Analytics')}`,
+        description: 'View statistics for MiniRippleSwap exchanges.',
       }
     case '/nfts':
       return {
-        title: `${t('Overview')} | ${t('UnifySwap')}`,
+        title: `${t('Overview')} | ${t('MiniRippleSwap')}`,
       }
     case '/nfts/collections':
       return {
-        title: `${t('Collections')} | ${t('UnifySwap')}`,
+        title: `${t('Collections')} | ${t('MiniRippleSwap')}`,
       }
     case '/nfts/profile':
       return {
-        title: `${t('Your Profile')} | ${t('UnifySwap')}`,
+        title: `${t('Your Profile')} | ${t('MiniRippleSwap')}`,
       }
     case '/pancake-squad':
       return {
-        title: `${t('Pancake Squad')} | ${t('UnifySwap')}`,
+        title: `${t('Pancake Squad')} | ${t('MiniRippleSwap')}`,
       }
     default:
       return null

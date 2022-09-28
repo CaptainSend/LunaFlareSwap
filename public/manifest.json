@@ -1,8 +1,8 @@
 {
-  "short_name": "UnifySwap",
-  "name": "UnifySwap",
-  "description": "Unify Network",
-  "homepage_url": "https://UnifySwap.net",
+  "short_name": "MiniRipple",
+  "name": "MiniRipple",
+  "description": "MiniRipple",
+  "homepage_url": "https://MiniRipple.net",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",

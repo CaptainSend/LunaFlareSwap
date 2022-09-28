@@ -2752,7 +2752,7 @@ var PancakeToggle = function (_a) {
 var baseColors = {
     failure: "#ED4B9E",
     primary: "#000000",
-    primaryBright: "#FFFFFF",
+    primaryBright: "#000000",
     primaryDark: "#000000",
     secondary: "#9b51b4",
     success: "#31D0AA",
@@ -2774,7 +2774,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#FFFFFF", background: "#FFFFFF", backgroundDisabled: "#3c3742", backgroundAlt: "#FFFFFF", backgroundAlt2: "#A9A9A9", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#a9a9a9", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#A9A9A9", inputSecondary: "#262130", primaryDark: "#FFFFFF", tertiary: "#a9a9a9", text: "#000000", textDisabled: "#666171", textSubtle: "#000000", disabled: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#000000", background: "#FFFFFF", backgroundDisabled: "#3c3742", backgroundAlt: "#FFFFFF", backgroundAlt2: "#A9A9A9", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#a9a9a9", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#A9A9A9", inputSecondary: "#262130", primaryDark: "#FFFFFF", tertiary: "#a9a9a9", text: "#000000", textDisabled: "#666171", textSubtle: "#000000", disabled: "#524B63", gradients: {
         bubblegum: "linear-gradient(50deg, #FFFFFF 0%, #FFFFFF 100%)",
         inverseBubblegum: "linear-gradient(50deg, #FFFFFF 0%, #FFFFFF 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",

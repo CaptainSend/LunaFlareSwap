@@ -98,10 +98,10 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mb="24px">
-            {t('MiniRipple')}
+            {t('RippleBurnReflect')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('The biggest XRP reward token on BSC.')}
+            {t('The biggest and safest XRP reward token on BSC.')}
           </Heading>
          
           

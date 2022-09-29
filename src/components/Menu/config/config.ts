@@ -28,8 +28,8 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     hideSubNav: false,
     items: [
       {
-        label: t('Website'),
-        href: 'https://MiniRipple.net',
+        label: t('Telegram Community'),
+        href: 'https://t.me/RippleBurnReflectPortal',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
       {

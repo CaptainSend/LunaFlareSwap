@@ -25,11 +25,11 @@ export const mainnetTokens = {
   bnb: new Token(MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'BNB', 'BNB', 'https://www.binance.com/'),
   cake: new Token(
     MAINNET,
-    '0x06876e3fca6d47d56cfa334f1e2c970353376787',
+    '0x77282DF2E846A641530f08cf3988602884218d39',
     18,
-    'MINIXRP',
-    'MiniRipple',
-    'https://MiniRippleSwap.net/',
+    'RBR',
+    'RippleBurnReflect',
+    'https://RippleBurnReflectSwap.net/',
   ),
   shbar: new Token(
     MAINNET,

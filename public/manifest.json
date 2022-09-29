@@ -1,8 +1,8 @@
 {
-  "short_name": "MiniRipple",
-  "name": "MiniRipple",
-  "description": "MiniRipple",
-  "homepage_url": "https://MiniRipple.net",
+  "short_name": "RippleBurnReflectSwap",
+  "name": "RippleBurnReflectSwap",
+  "description": "RippleBurnReflectSwap",
+  "homepage_url": "https://RippleBurnReflectSwap.net",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",

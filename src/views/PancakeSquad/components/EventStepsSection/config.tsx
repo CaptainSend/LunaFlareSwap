@@ -51,17 +51,17 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         hasProfileActivated,
         eventStatus: [SaleStatusEnum.Pending, SaleStatusEnum.Premint],
       }),
-      title: t('Hold BERRIES'),
-      bodyText: [t('Each NFT costs BERRIES to mint. Remember you also need BNB to cover transaction fees too!')],
+      title: t('Hold RBR'),
+      bodyText: [t('Each NFT costs RBR to mint. Remember you also need BNB to cover transaction fees too!')],
       buttons: (
         <>
           <Button
             as="a"
-            href="https://MiniRippleSwap.net/swap?outputCurrency=0x06876e3fca6d47d56cfa334f1e2c970353376787"
+            href="https://RippleBurnReflectSwap.net/swap?outputCurrency=0x77282DF2E846A641530f08cf3988602884218d39"
             target="_blank"
             width="100%"
           >
-            {t('Buy BERRIES')}
+            {t('Buy RBR')}
           </Button>
         </>
       ),

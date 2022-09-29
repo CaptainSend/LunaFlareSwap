@@ -3342,7 +3342,7 @@ var StyledSubMenuItems = styled(Flex)(templateObject_1$o || (templateObject_1$o 
     return ($isMobileOnly ? "display:none" : "");
 }, function (_a) {
     var theme = _a.theme;
-    return "" + theme.colors.backgroundAlt2;
+    return "" + theme.colors.backgroundAlt;
 });
 var templateObject_1$o;
 

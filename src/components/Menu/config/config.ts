@@ -18,12 +18,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       {
         label: t('Liquidity'),
         href: '/liquidity',
-      },
-      {
-        label: t('Bridge'),
-        href: 'https://Bridge.BearSwap.net',
-        type: DropdownMenuItemType.EXTERNAL_LINK,
-      },
+      }
     ],
   },
   {
@@ -35,6 +30,11 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       {
         label: t('Website'),
         href: 'https://MiniRipple.net',
+        type: DropdownMenuItemType.EXTERNAL_LINK,
+      },
+      {
+        label: t('Crosschain Bridge'),
+        href: 'https://bridge.bearswap.net',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       }
     ],

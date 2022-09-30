@@ -27,7 +27,7 @@ export const mainnetTokens = {
     MAINNET,
     '0x590a212be1e9c3b68854c666f327735ddac0af58',
     18,
-    'DS',
+    'DT',
     'DogeTrust',
     'https://DogeTrustSwap.net/',
   ),

@@ -42,7 +42,7 @@ export const cakeSectionData: SalesSectionProps = {
     'BearSwap is governed by its community members who can create & vote on important token proposals',
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x06876e3fca6d47d56cfa334f1e2c970353376787',
+    to: '/swap?outputCurrency=0x590a212be1e9c3b68854c666f327735ddac0af58',
     text: 'Buy BERRIES',
     external: false,
   },

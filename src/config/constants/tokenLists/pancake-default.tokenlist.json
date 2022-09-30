@@ -12,11 +12,11 @@
   "tokens": [
     {
       "name": "DogeTrust",
-      "symbol": "DS",
-      "address": "0x06876e3fca6d47d56cfa334f1e2c970353376787",
+      "symbol": "DT",
+      "address": "0x590a212be1e9c3b68854c666f327735ddac0af58",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://DogeTrustSwap.net/images/tokens/0x06876e3fca6d47d56cfa334f1e2c970353376787.png"
+      "logoURI": "https://DogeTrustSwap.net/images/tokens/0x590a212be1e9c3b68854c666f327735ddac0af58.png"
     },
     {
       "name": "WBNB Token",

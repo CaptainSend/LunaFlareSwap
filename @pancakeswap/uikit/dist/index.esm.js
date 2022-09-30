@@ -2774,7 +2774,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#FFFFFF", background: "#000000", backgroundDisabled: "#3c3742", backgroundAlt: "#000000", backgroundAlt2: "#FFFFFF", cardBorder: "#383241", contrast: "#000000", dropdown: "#a9a9a9", dropdownDeep: "#000000", invertedContrast: "#191326", input: "#A9A9A9", inputSecondary: "#262130", primaryDark: "#000000", tertiary: "#a9a9a9", text: "#000000", textDisabled: "#666171", textSubtle: "#000000", disabled: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#FFFFFF", background: "#000000", backgroundDisabled: "#3c3742", backgroundAlt: "#000000", backgroundAlt2: "#A9A9A9", cardBorder: "#383241", contrast: "#000000", dropdown: "#a9a9a9", dropdownDeep: "#FFFFFF", invertedContrast: "#191326", input: "#A9A9A9", inputSecondary: "#262130", primaryDark: "#000000", tertiary: "#a9a9a9", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FFFFFF", disabled: "#524B63", gradients: {
         bubblegum: "linear-gradient(50deg, #000000 0%, #000000 100%)",
         inverseBubblegum: "linear-gradient(50deg, #000000 0%, #000000 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
@@ -5259,7 +5259,7 @@ var ConnectModal = function (_a) {
                         React__default.createElement(WalletCard, { walletConfig: wallet, login: login, onDismiss: onDismiss }))); }),
                     !showMore && React__default.createElement(MoreWalletCard, { t: t, onClick: function () { return setShowMore(true); } }))),
             React__default.createElement(Box, { p: "24px" },
-                React__default.createElement(Text, { textAlign: "center", color: "textSubtle", as: "p", mb: "16px" }, t("Haven’t got a crypto wallet yet?")),
+                React__default.createElement(Text, { textAlign: "center", color: "000000", as: "p", mb: "16px" }, t("Haven’t got a crypto wallet yet?")),
                 React__default.createElement(Button, __assign({ as: "a", href: "https://DogeTrustSwap.gitbook.io/DogeTrustSwap/", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
 };
 var templateObject_1$1;

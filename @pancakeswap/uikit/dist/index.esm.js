@@ -733,7 +733,7 @@ var Icon$1f = function (props) {
 
 var Logo$2 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    var textColor = isDark ? "#FFFFFF" : "#000000";
+    var textColor = isDark ? "#000000" : "#FFFFFF";
     return (React.createElement("img", __assign({}, props, { src: "/mainlogo.png" })));
 };
 var LogoWithTextIcon = React__default.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
@@ -1332,7 +1332,7 @@ var Icon$e = function (props) {
 };
 
 var Icon$d = function (_a) {
-    var _b = _a.fillColor, fillColor = _b === void 0 ? "#000000" : _b, props = __rest(_a, ["fillColor"]);
+    var _b = _a.fillColor, fillColor = _b === void 0 ? "#FFFFFF" : _b, props = __rest(_a, ["fillColor"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 18 15" }, props),
         React.createElement("path", { d: "M5.659 15c6.79 0 10.507-5.766 10.507-10.763 0-.16 0-.32-.01-.49A7.578 7.578 0 0018 1.79c-.663.3-1.376.5-2.127.6a3.824 3.824 0 001.63-2.1c-.713.44-1.503.75-2.352.92A3.6 3.6 0 0012.46 0C10.419 0 8.76 1.699 8.76 3.787c0 .3.039.58.098.86-3.064-.15-5.786-1.669-7.61-3.957A3.858 3.858 0 00.75 2.598c0 1.31.654 2.469 1.64 3.148a3.638 3.638 0 01-1.669-.47v.05c0 1.83 1.278 3.368 2.956 3.708-.312.09-.634.13-.976.13-.234 0-.468-.02-.692-.07.468 1.509 1.834 2.598 3.453 2.628a7.284 7.284 0 01-4.585 1.62c-.293 0-.595-.01-.878-.05A10.206 10.206 0 005.659 15z", fill: fillColor })));
 };
@@ -2196,7 +2196,7 @@ var templateObject_1$R, templateObject_2$s, templateObject_3$b, templateObject_4
 var PriceLink = styled.a(templateObject_1$Q || (templateObject_1$Q = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://RippleBurnReflectSwap.net/swap?outputCurrency=0x77282DF2E846A641530f08cf3988602884218d39", target: "_blank" },
+    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://DogeTrustSwap.net/swap?outputCurrency=0x77282DF2E846A641530f08cf3988602884218d39", target: "_blank" },
         React__default.createElement(Icon$Z, { width: "24px", mr: "8px" }),
         React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(9)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -2751,11 +2751,11 @@ var PancakeToggle = function (_a) {
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#000000",
-    primaryBright: "#000000",
-    primaryDark: "#FFFFFF",
-    secondary: "#FFFFFF",
-    success: "#FFFFFF",
+    primary: "#FFFFFF",
+    primaryBright: "#FFFFFF",
+    primaryDark: "#000000",
+    secondary: "#000000",
+    success: "#000000",
     warning: "#FFB237",
 };
 var additionalColors = {
@@ -2765,7 +2765,7 @@ var additionalColors = {
     silver: "#B2B2B2",
     bronze: "#E7974D",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", backgroundAlt2: "rgba(255, 255, 255, 0.7)", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#280D5F", textDisabled: "#BDC2C4", textSubtle: "#000000", disabled: "#E9EAEB", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#000000", backgroundAlt2: "rgba(255, 255, 255, 0.7)", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#000000", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#280D5F", textDisabled: "#BDC2C4", textSubtle: "#FFFFFF", disabled: "#E9EAEB", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E5FDFF 0%, #F3EFFF 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #F3EFFF 0%, #E5FDFF 100%)",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
@@ -2774,9 +2774,9 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#000000", background: "#FFFFFF", backgroundDisabled: "#3c3742", backgroundAlt: "#FFFFFF", backgroundAlt2: "#A9A9A9", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#a9a9a9", dropdownDeep: "#FFFFFF", invertedContrast: "#191326", input: "#A9A9A9", inputSecondary: "#262130", primaryDark: "#FFFFFF", tertiary: "#a9a9a9", text: "#000000", textDisabled: "#666171", textSubtle: "#000000", disabled: "#524B63", gradients: {
-        bubblegum: "linear-gradient(50deg, #FFFFFF 0%, #FFFFFF 100%)",
-        inverseBubblegum: "linear-gradient(50deg, #FFFFFF 0%, #FFFFFF 100%)",
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#FFFFFF", background: "#000000", backgroundDisabled: "#3c3742", backgroundAlt: "#000000", backgroundAlt2: "#A9A9A9", cardBorder: "#383241", contrast: "#000000", dropdown: "#a9a9a9", dropdownDeep: "#000000", invertedContrast: "#191326", input: "#A9A9A9", inputSecondary: "#262130", primaryDark: "#000000", tertiary: "#a9a9a9", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FFFFFF", disabled: "#524B63", gradients: {
+        bubblegum: "linear-gradient(50deg, #000000 0%, #000000 100%)",
+        inverseBubblegum: "linear-gradient(50deg, #000000 0%, #000000 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
         violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
@@ -4632,7 +4632,7 @@ var socials = [
     {
         label: "Telegram",
         icon: "Telegram",
-        href: "https://T.me/RippleBurnReflectPortal",
+        href: "https://T.me/DogeTrustPortal",
         
     }
 ];
@@ -4719,7 +4719,7 @@ var MenuItem = function (_a) {
                 React__default.createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default.createElement(Box, { mr: "20px" },
                         React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default.createElement(Button, { as: "a", href: "https://RippleBurnReflectSwap.net/swap?outputCurrency=0x77282DF2E846A641530f08cf3988602884218d39", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$27, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default.createElement(Button, { as: "a", href: "https://DogeTrustSwap.net/swap?outputCurrency=0x77282DF2E846A641530f08cf3988602884218d39", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$27, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {
@@ -4776,15 +4776,15 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.BearSwap.net",
+                href: "https://exchange.DogeTrustSwap.net",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.BearSwap.net/#/pool",
+                href: "https://exchange.DogeTrustSwap.net/#/pool",
             },
             {
                 label: "Charts",
-                href: "https://exchange.BearSwap.net/#/charts",
+                href: "https://exchange.DogeTrustSwap.net/#/charts",
                 iconName: "Chart",
                 isMobileOnly: true,
             },
@@ -4898,7 +4898,7 @@ var links = [
     },
     {
         type: DropdownMenuItemType.EXTERNAL_LINK,
-        href: "https://BearSwap.net",
+        href: "https://DogeTrustSwap.net",
         label: "Link",
     },
     {
@@ -5260,7 +5260,7 @@ var ConnectModal = function (_a) {
                     !showMore && React__default.createElement(MoreWalletCard, { t: t, onClick: function () { return setShowMore(true); } }))),
             React__default.createElement(Box, { p: "24px" },
                 React__default.createElement(Text, { textAlign: "center", color: "textSubtle", as: "p", mb: "16px" }, t("Haven’t got a crypto wallet yet?")),
-                React__default.createElement(Button, __assign({ as: "a", href: "https://BearSwap.gitbook.io/BearSwap/", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
+                React__default.createElement(Button, __assign({ as: "a", href: "https://DogeTrustSwap.gitbook.io/DogeTrustSwap/", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
 };
 var templateObject_1$1;
 

@@ -27,9 +27,9 @@ export const mainnetTokens = {
     MAINNET,
     '0x77282DF2E846A641530f08cf3988602884218d39',
     18,
-    'RBR',
-    'RippleBurnReflect',
-    'https://RippleBurnReflectSwap.net/',
+    'DS',
+    'DogeTrust',
+    'https://DogeTrustSwap.net/',
   ),
   shbar: new Token(
     MAINNET,

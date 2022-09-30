@@ -4627,7 +4627,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "Twitter",
-        href: "https://Twitter.com/",
+        href: "https://Twitter.com/DogeTrust_",
     },
     {
         label: "Telegram",

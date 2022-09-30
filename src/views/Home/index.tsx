@@ -51,7 +51,7 @@ const Home: React.FC = () => {
         innerProps={{ style: { margin: '0', width: '100%' } }}
         background={
           theme.isDark
-            ? "#FFFFFF"
+            ? "#000000"
             : 'linear-gradient(139.73deg, #E6FDFF 0%, #fff1ef 100%)'
         }
         index={2}

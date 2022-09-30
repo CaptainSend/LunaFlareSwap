@@ -57,7 +57,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         <>
           <Button
             as="a"
-            href="https://DogeTrustSwap.net/swap?outputCurrency=0x77282DF2E846A641530f08cf3988602884218d39"
+            href="https://DogeTrustSwap.net/swap?outputCurrency=0x590a212be1e9c3b68854c666f327735ddac0af58"
             target="_blank"
             width="100%"
           >

@@ -25,7 +25,7 @@ export const mainnetTokens = {
   bnb: new Token(MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'BNB', 'BNB', 'https://www.binance.com/'),
   cake: new Token(
     MAINNET,
-    '0x77282DF2E846A641530f08cf3988602884218d39',
+    '0x590a212be1e9c3b68854c666f327735ddac0af58',
     18,
     'DS',
     'DogeTrust',

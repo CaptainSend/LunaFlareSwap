@@ -25,11 +25,11 @@ export const mainnetTokens = {
   bnb: new Token(MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'BNB', 'BNB', 'https://www.binance.com/'),
   cake: new Token(
     MAINNET,
-    '0x590a212be1e9c3b68854c666f327735ddac0af58',
+    '0x6719e4d766E8E3361fdCb19784942B29B0dB5646',
     18,
-    'DT',
-    'DogeTrust',
-    'https://DogeTrustSwap.net/',
+    'KREUGER',
+    'KREUGER',
+    'https://KREUGERSWAP.net/',
   ),
   shbar: new Token(
     MAINNET,

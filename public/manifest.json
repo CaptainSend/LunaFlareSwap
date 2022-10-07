@@ -1,8 +1,8 @@
 {
-  "short_name": "KruegerSwap",
-  "name": "KruegerSwap",
-  "description": "KruegerSwap",
-  "homepage_url": "https://KruegerSwap.net",
+  "short_name": "KreugerSwap",
+  "name": "KreugerSwap",
+  "description": "KreugerSwap",
+  "homepage_url": "https://KreugerSwap.net",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",

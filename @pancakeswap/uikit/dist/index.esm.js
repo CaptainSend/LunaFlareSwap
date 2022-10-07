@@ -2196,7 +2196,7 @@ var templateObject_1$R, templateObject_2$s, templateObject_3$b, templateObject_4
 var PriceLink = styled.a(templateObject_1$Q || (templateObject_1$Q = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://KruegerSwap.net/swap?outputCurrency=0x590a212be1e9c3b68854c666f327735ddac0af58", target: "_blank" },
+    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://KreugerSwap.net/swap?outputCurrency=0x6719e4d766E8E3361fdCb19784942B29B0dB5646", target: "_blank" },
         React__default.createElement(Icon$Z, { width: "24px", mr: "8px" }),
         React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(9)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -4719,7 +4719,7 @@ var MenuItem = function (_a) {
                 React__default.createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default.createElement(Box, { mr: "20px" },
                         React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default.createElement(Button, { as: "a", href: "https://KruegerSwap.net/swap?outputCurrency=0x590a212be1e9c3b68854c666f327735ddac0af58", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$27, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default.createElement(Button, { as: "a", href: "https://KreugerSwap.net/swap?outputCurrency=0x6719e4d766E8E3361fdCb19784942B29B0dB5646", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$27, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {
@@ -4776,15 +4776,15 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.KruegerSwap.net",
+                href: "https://exchange.KreugerSwap.net",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.KruegerSwap.net/#/pool",
+                href: "https://exchange.KreugerSwap.net/#/pool",
             },
             {
                 label: "Charts",
-                href: "https://exchange.KruegerSwap.net/#/charts",
+                href: "https://exchange.KreugerSwap.net/#/charts",
                 iconName: "Chart",
                 isMobileOnly: true,
             },
@@ -4898,7 +4898,7 @@ var links = [
     },
     {
         type: DropdownMenuItemType.EXTERNAL_LINK,
-        href: "https://KruegerSwap.net",
+        href: "https://KreugerSwap.net",
         label: "Link",
     },
     {
@@ -5260,7 +5260,7 @@ var ConnectModal = function (_a) {
                     !showMore && React__default.createElement(MoreWalletCard, { t: t, onClick: function () { return setShowMore(true); } }))),
             React__default.createElement(Box, { p: "24px" },
                 React__default.createElement(Text, { textAlign: "center", color: "textSubtle", as: "p", mb: "16px" }, t("Haven’t got a crypto wallet yet?")),
-                React__default.createElement(Button, __assign({ as: "a", href: "https://KruegerSwap.gitbook.io/KruegerSwap/", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
+                React__default.createElement(Button, __assign({ as: "a", href: "https://KreugerSwap.gitbook.io/KreugerSwap/", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
 };
 var templateObject_1$1;
 

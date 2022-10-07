@@ -2,10 +2,10 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'DogeTrustSwap',
+  title: 'KruegerSwap',
   description:
     '',
-  image: 'https://DogeTrustSwap.net/images/hero.png',
+  image: 'https://KruegerSwap.net/images/hero.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
@@ -33,106 +33,106 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Home')} | ${t('KruegerSwap')}`,
       }
     case '/swap':
       return {
-        title: `${t('Exchange')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Exchange')} | ${t('KruegerSwap')}`,
       }
     case '/add':
       return {
-        title: `${t('Add Liquidity')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Add Liquidity')} | ${t('KruegerSwap')}`,
       }
     case '/remove':
       return {
-        title: `${t('Remove Liquidity')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Remove Liquidity')} | ${t('KruegerSwap')}`,
       }
     case '/liquidity':
       return {
-        title: `${t('Liquidity')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Liquidity')} | ${t('KruegerSwap')}`,
       }
     case '/find':
       return {
-        title: `${t('Import Pool')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Import Pool')} | ${t('KruegerSwap')}`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Trading Battle')} | ${t('KruegerSwap')}`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Prediction')} | ${t('KruegerSwap')}`,
       }
     case '/prediction/leaderboard':
       return {
-        title: `${t('Leaderboard')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Leaderboard')} | ${t('KruegerSwap')}`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Farms')} | ${t('KruegerSwap')}`,
       }
     case '/farms/auction':
       return {
-        title: `${t('Farm Auctions')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Farm Auctions')} | ${t('KruegerSwap')}`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Pools')} | ${t('KruegerSwap')}`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Lottery')} | ${t('KruegerSwap')}`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Initial Farm Offering')} | ${t('KruegerSwap')}`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Leaderboard')} | ${t('KruegerSwap')}`,
       }
     case '/voting':
       return {
-        title: `${t('Voting')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Voting')} | ${t('KruegerSwap')}`,
       }
     case '/voting/proposal':
       return {
-        title: `${t('Proposals')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Proposals')} | ${t('KruegerSwap')}`,
       }
     case '/voting/proposal/create':
       return {
-        title: `${t('Make a Proposal')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Make a Proposal')} | ${t('KruegerSwap')}`,
       }
     case '/info':
       return {
-        title: `${t('Overview')} | ${t('DogeTrustSwap Info & Analytics')}`,
-        description: 'View statistics for DogeTrustSwap exchanges.',
+        title: `${t('Overview')} | ${t('KruegerSwap Info & Analytics')}`,
+        description: 'View statistics for KruegerSwap exchanges.',
       }
     case '/info/pools':
       return {
-        title: `${t('Pools')} | ${t('DogeTrustSwap Info & Analytics')}`,
-        description: 'View statistics for DogeTrustSwap exchanges.',
+        title: `${t('Pools')} | ${t('KruegerSwap Info & Analytics')}`,
+        description: 'View statistics for KruegerSwap exchanges.',
       }
     case '/info/tokens':
       return {
-        title: `${t('Tokens')} | ${t('DogeTrustSwap Info & Analytics')}`,
-        description: 'View statistics for DogeTrustSwap exchanges.',
+        title: `${t('Tokens')} | ${t('KruegerSwap Info & Analytics')}`,
+        description: 'View statistics for KruegerSwap exchanges.',
       }
     case '/nfts':
       return {
-        title: `${t('Overview')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Overview')} | ${t('KruegerSwap')}`,
       }
     case '/nfts/collections':
       return {
-        title: `${t('Collections')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Collections')} | ${t('KruegerSwap')}`,
       }
     case '/nfts/profile':
       return {
-        title: `${t('Your Profile')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Your Profile')} | ${t('KruegerSwap')}`,
       }
     case '/pancake-squad':
       return {
-        title: `${t('Pancake Squad')} | ${t('DogeTrustSwap')}`,
+        title: `${t('Pancake Squad')} | ${t('KruegerSwap')}`,
       }
     default:
       return null

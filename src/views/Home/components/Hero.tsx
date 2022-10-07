@@ -98,10 +98,10 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mb="24px">
-            {t('DogeTrust')}
+            {t('KruegerSwap')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('The biggest charity token on BSC.')}
+            {t('The biggest halloween themed swap on BSC.')}
           </Heading>
          
           

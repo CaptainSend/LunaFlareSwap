@@ -1,8 +1,8 @@
 {
-  "short_name": "DogeTrustSwap",
-  "name": "DogeTrustSwap",
-  "description": "DogeTrustSwap",
-  "homepage_url": "https://DogeTrustSwap.net",
+  "short_name": "KruegerSwap",
+  "name": "KruegerSwap",
+  "description": "KruegerSwap",
+  "homepage_url": "https://KruegerSwap.net",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",

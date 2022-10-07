@@ -29,7 +29,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     items: [
       {
         label: t('Telegram Community'),
-        href: 'https://t.me/DogeTrustInfo',
+        href: 'https://t.me/Krueger',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
       {

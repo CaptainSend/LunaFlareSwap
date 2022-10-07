@@ -57,11 +57,11 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         <>
           <Button
             as="a"
-            href="https://DogeTrustSwap.net/swap?outputCurrency=0x590a212be1e9c3b68854c666f327735ddac0af58"
+            href="https://KruegerSwap.net/swap?outputCurrency=0x590a212be1e9c3b68854c666f327735ddac0af58"
             target="_blank"
             width="100%"
           >
-            {t('Buy DS')}
+            {t('Buy KRUEGER')}
           </Button>
         </>
       ),

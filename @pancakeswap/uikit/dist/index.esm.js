@@ -2775,8 +2775,8 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#FFFFFF", background: "#2d3355", backgroundDisabled: "#3c3742", backgroundAlt: "#2d3355", backgroundAlt2: "#2d3355", cardBorder: "#383241", contrast: "#2d3355", dropdown: "#a9a9a9", dropdownDeep: "#2d3355", invertedContrast: "#191326", input: "#454545", inputSecondary: "#262130", primaryDark: "#2d3355", tertiary: "#2d3355", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FFFFFF", disabled: "#524B63", gradients: {
-        bubblegum: "linear-gradient(50deg, #2d3355 0%, #2d3355 100%)",
-        inverseBubblegum: "linear-gradient(50deg, #2d3355 0%, #v 100%)",
+        bubblegum: "linear-gradient(50deg, #000000 0%, #000000 100%)",
+        inverseBubblegum: "linear-gradient(50deg, #000000 0%, #000000 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
         violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",

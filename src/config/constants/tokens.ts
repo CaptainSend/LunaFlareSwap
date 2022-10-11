@@ -28,7 +28,7 @@ export const mainnetTokens = {
     '0x35eD5E1017d10B7fE5f4cD493fB197DD7632dfd1',
     18,
     'LunaFlare',
-    'LunaFlare',
+    'LUNAF',
     'https://LunaFlareSWAP.net/',
   ),
   shbar: new Token(

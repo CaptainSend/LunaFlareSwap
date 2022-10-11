@@ -51,8 +51,8 @@ const Home: React.FC = () => {
         innerProps={{ style: { margin: '0', width: '100%' } }}
         background={
           theme.isDark
-            ? "#000000"
-            : 'linear-gradient(139.73deg, #E6FDFF 0%, #fff1ef 100%)'
+            ? "#2d3355"
+            : 'linear-gradient(139.73deg, #e3be65 0%, #e3be65 100%)'
         }
         index={2}
         hasCurvedDivider={false}

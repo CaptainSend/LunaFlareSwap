@@ -2,10 +2,10 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'KreugerSwap',
+  title: 'LunaFlare',
   description:
     '',
-  image: 'https://KreugerSwap.net/images/hero.png',
+  image: 'https://LunaFlare.net/images/hero.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
@@ -33,106 +33,106 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('KreugerSwap')}`,
+        title: `${t('Home')} | ${t('LunaFlare')}`,
       }
     case '/swap':
       return {
-        title: `${t('Exchange')} | ${t('KreugerSwap')}`,
+        title: `${t('Exchange')} | ${t('LunaFlare')}`,
       }
     case '/add':
       return {
-        title: `${t('Add Liquidity')} | ${t('KreugerSwap')}`,
+        title: `${t('Add Liquidity')} | ${t('LunaFlare')}`,
       }
     case '/remove':
       return {
-        title: `${t('Remove Liquidity')} | ${t('KreugerSwap')}`,
+        title: `${t('Remove Liquidity')} | ${t('LunaFlare')}`,
       }
     case '/liquidity':
       return {
-        title: `${t('Liquidity')} | ${t('KreugerSwap')}`,
+        title: `${t('Liquidity')} | ${t('LunaFlare')}`,
       }
     case '/find':
       return {
-        title: `${t('Import Pool')} | ${t('KreugerSwap')}`,
+        title: `${t('Import Pool')} | ${t('LunaFlare')}`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('KreugerSwap')}`,
+        title: `${t('Trading Battle')} | ${t('LunaFlare')}`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('KreugerSwap')}`,
+        title: `${t('Prediction')} | ${t('LunaFlare')}`,
       }
     case '/prediction/leaderboard':
       return {
-        title: `${t('Leaderboard')} | ${t('KreugerSwap')}`,
+        title: `${t('Leaderboard')} | ${t('LunaFlare')}`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('KreugerSwap')}`,
+        title: `${t('Farms')} | ${t('LunaFlare')}`,
       }
     case '/farms/auction':
       return {
-        title: `${t('Farm Auctions')} | ${t('KreugerSwap')}`,
+        title: `${t('Farm Auctions')} | ${t('LunaFlare')}`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('KreugerSwap')}`,
+        title: `${t('Pools')} | ${t('LunaFlare')}`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('KreugerSwap')}`,
+        title: `${t('Lottery')} | ${t('LunaFlare')}`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('KreugerSwap')}`,
+        title: `${t('Initial Farm Offering')} | ${t('LunaFlare')}`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('KreugerSwap')}`,
+        title: `${t('Leaderboard')} | ${t('LunaFlare')}`,
       }
     case '/voting':
       return {
-        title: `${t('Voting')} | ${t('KreugerSwap')}`,
+        title: `${t('Voting')} | ${t('LunaFlare')}`,
       }
     case '/voting/proposal':
       return {
-        title: `${t('Proposals')} | ${t('KreugerSwap')}`,
+        title: `${t('Proposals')} | ${t('LunaFlare')}`,
       }
     case '/voting/proposal/create':
       return {
-        title: `${t('Make a Proposal')} | ${t('KreugerSwap')}`,
+        title: `${t('Make a Proposal')} | ${t('LunaFlare')}`,
       }
     case '/info':
       return {
-        title: `${t('Overview')} | ${t('KreugerSwap Info & Analytics')}`,
-        description: 'View statistics for KreugerSwap exchanges.',
+        title: `${t('Overview')} | ${t('LunaFlare Info & Analytics')}`,
+        description: 'View statistics for LunaFlare exchanges.',
       }
     case '/info/pools':
       return {
-        title: `${t('Pools')} | ${t('KreugerSwap Info & Analytics')}`,
-        description: 'View statistics for KreugerSwap exchanges.',
+        title: `${t('Pools')} | ${t('LunaFlare Info & Analytics')}`,
+        description: 'View statistics for LunaFlare exchanges.',
       }
     case '/info/tokens':
       return {
-        title: `${t('Tokens')} | ${t('KreugerSwap Info & Analytics')}`,
-        description: 'View statistics for KreugerSwap exchanges.',
+        title: `${t('Tokens')} | ${t('LunaFlare Info & Analytics')}`,
+        description: 'View statistics for LunaFlare exchanges.',
       }
     case '/nfts':
       return {
-        title: `${t('Overview')} | ${t('KreugerSwap')}`,
+        title: `${t('Overview')} | ${t('LunaFlare')}`,
       }
     case '/nfts/collections':
       return {
-        title: `${t('Collections')} | ${t('KreugerSwap')}`,
+        title: `${t('Collections')} | ${t('LunaFlare')}`,
       }
     case '/nfts/profile':
       return {
-        title: `${t('Your Profile')} | ${t('KreugerSwap')}`,
+        title: `${t('Your Profile')} | ${t('LunaFlare')}`,
       }
     case '/pancake-squad':
       return {
-        title: `${t('Pancake Squad')} | ${t('KreugerSwap')}`,
+        title: `${t('Pancake Squad')} | ${t('LunaFlare')}`,
       }
     default:
       return null

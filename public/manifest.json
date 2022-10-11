@@ -1,8 +1,8 @@
 {
-  "short_name": "KreugerSwap",
-  "name": "KreugerSwap",
-  "description": "KreugerSwap",
-  "homepage_url": "https://KreugerSwap.net",
+  "short_name": "LunaFlareSwap",
+  "name": "LunaFlareSwap",
+  "description": "LunaFlareSwap",
+  "homepage_url": "https://LunaFlareSwap.net",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",

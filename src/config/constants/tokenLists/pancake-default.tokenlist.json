@@ -1,5 +1,5 @@
 {
-  "name": "Kreuger Default List",
+  "name": "LunaFlareSwap Default List",
   "timestamp": "2021-05-06T00:00:00Z",
   "version": {
     "major": 3,
@@ -7,16 +7,16 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://Kreuger.net/logo.png",
+  "logoURI": "https://LunaFlareSwap.net/logo.png",
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "Kreuger",
-      "symbol": "KREUGER",
-      "address": "0x6719e4d766E8E3361fdCb19784942B29B0dB5646",
+      "name": "LunaFlare",
+      "symbol": "LUNAF",
+      "address": "0x35eD5E1017d10B7fE5f4cD493fB197DD7632dfd1",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://Kreuger.net/images/tokens/0x6719e4d766E8E3361fdCb19784942B29B0dB5646.png"
+      "logoURI": "https://LunaFlareSwap.net/images/tokens/0x35eD5E1017d10B7fE5f4cD493fB197DD7632dfd1.png"
     },
     {
       "name": "WBNB Token",
@@ -24,7 +24,7 @@
       "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://Kreuger.net/images/tokens/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+      "logoURI": "https://LunaFlareSwap.net/images/tokens/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
     },
     {
       "name": "BUSD Token",
@@ -32,7 +32,7 @@
       "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://Kreuger.net/images/tokens/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+      "logoURI": "https://LunaFlareSwap.net/images/tokens/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
     },
     {
       "name": "Ethereum Token",
@@ -40,7 +40,7 @@
       "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://Kreuger.net/images/tokens/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+      "logoURI": "https://LunaFlareSwap.net/images/tokens/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
     },
     {
       "name": "BTCB Token",
@@ -48,7 +48,7 @@
       "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://Kreuger.net/images/tokens/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
+      "logoURI": "https://LunaFlareSwap.net/images/tokens/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
     }
   ]
 }

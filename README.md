@@ -1,6 +1,6 @@
 # BearSwap Frontend
 
 
-This project contains the main features of the BearSwap application for KreugerSwap.
+This project contains the main features of the BearSwap application for LunaFlareSwap.
 
 

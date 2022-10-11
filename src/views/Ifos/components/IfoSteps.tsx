@@ -100,7 +100,7 @@ const IfoSteps: React.FC<Props> = ({ ifo, walletIfoData }) => {
             <Button
               as={Link}
               external
-              href="/swap?outputCurrency=0x6719e4d766E8E3361fdCb19784942B29B0dB5646"
+              href="/swap?outputCurrency=0x35eD5E1017d10B7fE5f4cD493fB197DD7632dfd1"
               endIcon={<OpenNewIcon color="white" />}
               mt="16px"
             >

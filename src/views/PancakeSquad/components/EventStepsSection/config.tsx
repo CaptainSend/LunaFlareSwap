@@ -51,17 +51,17 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         hasProfileActivated,
         eventStatus: [SaleStatusEnum.Pending, SaleStatusEnum.Premint],
       }),
-      title: t('Hold Kreuger'),
+      title: t('Hold LunaFlare'),
       bodyText: [t('Each NFT costs DS to mint. Remember you also need BNB to cover transaction fees too!')],
       buttons: (
         <>
           <Button
             as="a"
-            href="https://KreugerSwap.net/swap?outputCurrency=0x6719e4d766E8E3361fdCb19784942B29B0dB5646"
+            href="https://LunaFlareSwap.net/swap?outputCurrency=0x35eD5E1017d10B7fE5f4cD493fB197DD7632dfd1"
             target="_blank"
             width="100%"
           >
-            {t('Buy KREUGER')}
+            {t('Buy LunaFlare')}
           </Button>
         </>
       ),

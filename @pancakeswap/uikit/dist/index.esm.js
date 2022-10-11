@@ -2774,7 +2774,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#FFFFFF", background: "#2d3355", backgroundDisabled: "#3c3742", backgroundAlt: "#2d3355", backgroundAlt2: "#2d3355", cardBorder: "#383241", contrast: "#2d3355", dropdown: "#a9a9a9", dropdownDeep: "#2d3355", invertedContrast: "#191326", input: "#454545", inputSecondary: "#262130", primaryDark: "#2d3355", tertiary: "#2d3355", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FFFFFF", disabled: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#FFFFFF", background: "#2d3355", backgroundDisabled: "#3c3742", backgroundAlt: "#2d3355", backgroundAlt2: "#2d3355", cardBorder: "#e3be65", contrast: "#2d3355", dropdown: "#a9a9a9", dropdownDeep: "#2d3355", invertedContrast: "#191326", input: "#454545", inputSecondary: "#262130", primaryDark: "#2d3355", tertiary: "#2d3355", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FFFFFF", disabled: "#524B63", gradients: {
         bubblegum: "linear-gradient(50deg, #000000 0%, #000000 100%)",
         inverseBubblegum: "linear-gradient(50deg, #000000 0%, #000000 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
@@ -4627,12 +4627,12 @@ var socials = [
     {
         label: "Twitter",
         icon: "Twitter",
-        href: "https://Twitter.com/FreddyKReflect",
+        href: "https://Twitter.com/Luna_Flare_Ofcl",
     },
     {
         label: "Telegram",
         icon: "Telegram",
-        href: "https://T.me/FreddyKReflect",
+        href: "https://T.me/LunaFlareOfficial",
         
     }
 ];
